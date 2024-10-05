@@ -1,3 +1,7 @@
 import { Routes } from '@angular/router';
-
-export const routes: Routes = [];
+import { LoginComponent } from '../component/login/login.component';
+// Define the routes for your standalone components
+export const routes: Routes = [
+  { path: '', component: LoginComponent },       // Default route
+ 
+];
